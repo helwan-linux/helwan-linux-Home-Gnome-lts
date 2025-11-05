@@ -163,6 +163,7 @@ xterm
 ###################
 gnome
 gnome-extra
+adwaita-icon-theme
 
 #########
 #office##
