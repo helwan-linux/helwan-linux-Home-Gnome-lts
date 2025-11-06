@@ -165,6 +165,16 @@ gnome
 gnome-extra
 adwaita-icon-theme
 
+###################
+#cinnmon theme icons##
+###################
+tela-circle-icon-theme-blue
+qogir-gtk-theme-git
+mate-icon-theme-faenza
+orchis-theme
+papirus-icon-theme
+capitaine-cursors
+
 #########
 #office##
 #########
