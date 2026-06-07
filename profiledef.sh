@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Helwan_Linux_Home_Gnome"
-iso_label="Helwan_Linux_Home_Gnome"
+iso_name="Helwan_Linux_Home_v2"
+iso_label="Helwan_Linux_Home_v2"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
-iso_version="v1"
+iso_version="v2"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
