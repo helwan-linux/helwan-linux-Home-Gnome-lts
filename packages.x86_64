@@ -53,7 +53,6 @@ less
 lftp
 libfido2
 libusb-compat
-#linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -135,12 +134,16 @@ zsh
 #########
 linux-lts
 linux-lts-headers
+#linux
+#linux-headers
+#linux-zen
+#linux-zen-headers
 
 ############
 #calamares##
 ############
 calamares
-hel-calamares-config-lts
+hel-calamares-dev-conf
 os-prober
 ckbcomp
 mkinitcpio-openswap
@@ -156,14 +159,48 @@ lightdm
 lightdm-slick-greeter
 pacman-contrib
 bash-completion
+zenity
 xterm
 
 ###################
 #desktop-environment##
 ###################
-gnome
-gnome-extra
-adwaita-icon-theme
+cinnamon
+nemo-fileroller
+evince
+gedit
+xfce4-terminal
+gnome-calculator
+gnome-screenshot
+eog
+gimp
+gnome-keyring
+xclip
+
+###########
+#VGA Card##
+###########
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
+xf86-video-ati
+xf86-video-fbdev
+
+####################
+#Optional VGA Card##
+####################
+#xf86-video-dummy
+#xf86-video-qxl
+#xf86-video-voodoo
+#xf86-video-vesa
+
+#################
+#android-reader##
+#################
+gvfs
+gvfs-mtp
+mtpfs
+android-tools
 
 ###################
 #cinnmon theme icons##
@@ -175,10 +212,27 @@ orchis-theme
 papirus-icon-theme
 capitaine-cursors
 
+##########
+#gst-tools##
 #########
-#office##
-#########
-libreoffice-still
+gst-libav
+gst-plugins-ugly
+gst-plugins-good
+gst-plugins-base
+gst-plugins-bad
+
+#######
+#fonts##
+#######
+cantarell-fonts
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+noto-fonts-extra
+ttf-bitstream-vera
+ttf-dejavu
+ttf-liberation
+ttf-opensans
 
 ######################
 #Network & Bluetooth##
@@ -194,14 +248,14 @@ reflector
 #Multimedia##
 #############
 mpv
+smplayer
 audacious
 
 #############
 #Connection##
 #############
 firefox
-kdeconnect
-thunderbird
+geary
 
 #########
 #printing##
@@ -209,28 +263,41 @@ thunderbird
 cups
 system-config-printer
 
+
 ############
 #system-tools##
 ############
 htop
 zram-generator
-archiso
-timeshift
 gparted
 powertop
 tlp
 ufw
 yay
-powertop
 bleachbit
+python-pyautogui
+yt-dlp-git
+python-numpy
 
 ##################
 #helwan-packages##
 ##################
 hel-ai-gate
-hel-process
+helfetch
 hel-store
 hel-terminal
+hel-process
 helufw
-hpm
 
+
+###############
+#helwan-Games##
+###############
+hel-blocks
+hel-space-fight
+hel-solitaire
+hel-cmd-runner
+hel-maze
+hel-senet
+hel-mines
+hel-prism
